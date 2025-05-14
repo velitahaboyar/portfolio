@@ -28,7 +28,7 @@ const Hero = () => {
                 solutions that make a difference.
               </p>
               <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center">
-                <a href={personal.cv} className="btn btn-primary" download>
+                <a href="/cv/Veli Taha Boyar CV.pdf" className="btn btn-primary" download>
                   Download CV
                 </a>
                 <a className="btn btn-outline-primary" href="#portfolio">
