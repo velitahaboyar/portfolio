@@ -1,0 +1,27 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--primary-color);
+  color: black;
+  border: none;
+  border-radius: 50%;
+  padding: 0.75rem 0.9rem;
+  width: 50px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 999;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background: rgb(41, 41, 41);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}

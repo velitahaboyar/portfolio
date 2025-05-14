@@ -1,0 +1,108 @@
+.portfolio-slider {
+  margin-bottom: 1.5rem!;
+}
+
+.portfolio-image-wrapper {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--card-border);
+  background: var(--card-bg);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+.portfolio-image-wrapper:hover {
+  border-color: var(--card-hover-border);
+  transform: translateY(-5px);
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  transition: all 0.3s ease;
+}
+
+.portfolio-image-wrapper:hover .portfolio-image {
+  transform: scale(1.05);
+}
+
+.portfolio-link {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--card-bg);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid var(--card-border);
+}
+
+.portfolio-link:hover {
+  background: var(--primary-color);
+  color: var(--background-color);
+  border-color: var(--primary-color);
+}
+
+.portfolio-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  background: var(--card-bg);
+  border-radius: 1rem;
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--card-border);
+  transition: all 0.3s ease;
+}
+
+.portfolio-content:hover {
+  border-color: var(--card-hover-border);
+  transform: translateY(-5px);
+}
+
+.project-meta {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+}
+
+.meta-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.meta-item span:first-child {
+  color: var(--text-light);
+}
+
+.meta-item span:last-child {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .portfolio-content {
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .portfolio-link {
+    width: 36px;
+    height: 36px;
+  }
+
+  .project-meta {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+  }
+}
