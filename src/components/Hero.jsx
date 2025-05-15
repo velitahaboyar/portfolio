@@ -13,11 +13,28 @@ const Hero = () => {
               <span className="badge text-bg-light mb-4">
                 {personal.givenName}
               </span>
-              <h1 className="mb-4 hero-heading">
+              <h1
+                className="mb-4 hero-heading"
+                style={{
+                  fontSize: window.innerWidth < 768 ? "1.5rem" : undefined,
+                }}
+              >
                 Hi, I'm {personal.name}. <br />
-                <span className="gradient-text">{personal.title}</span>
+                <span
+                  className="gradient-text"
+                  style={{
+                    fontSize: window.innerWidth < 768 ? "1rem" : undefined,
+                  }}
+                >
+                  {personal.title}
+                </span>
               </h1>
-              <p className="lead mb-5 lh-lg hero-text">
+              <p
+                className="lead mb-4 lh-lg hero-text"
+                style={{
+                  fontSize: window.innerWidth < 768 ? "1rem" : undefined,
+                }}
+              >
                 I'm passionate about creating beautiful and functional web
                 applications, <br className="d-none d-sm-block" /> especially
                 modern UI's. <br className="d-none d-sm-block" /> With my
@@ -28,7 +45,11 @@ const Hero = () => {
                 solutions that make a difference.
               </p>
               <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center">
-                <a href="/cv/Veli Taha Boyar CV.pdf" className="btn btn-primary" download>
+                <a
+                  href="/cv/Veli Taha Boyar CV.pdf"
+                  className="btn btn-primary"
+                  download
+                >
                   Download CV
                 </a>
                 <a className="btn btn-outline-primary" href="#portfolio">

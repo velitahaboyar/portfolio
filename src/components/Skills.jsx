@@ -14,8 +14,10 @@ const iconMap = {
   git: <FaGit size={40} color="#F1502F" />,
   tailwind: <SiTailwindcss size={40} color="#27aae3" />,
   linux: <FaLinux size={40} color="#828b8f" />,
-  typescript: <SiTypescript size={40} color="#007acc" />
+  
 };
+
+
 
 const Skills = () => {
   return (
@@ -29,10 +31,10 @@ const Skills = () => {
         </div>
         <Row className="g-4">
           {skills.map((skill, index) => (
-            <Col md={6} lg={4} key={index}>
+            <Col md={6} xs={6} lg={4} key={index}>
               <div className="skills-card text-center p-4 rounded h-100">
                 <div className="mb-3">{iconMap[skill.icon]}</div>
-                <h3 className="h5">{skill.title}</h3>
+                <h5 className="h6">{skill.title}</h5>
               </div>
             </Col>
           ))}

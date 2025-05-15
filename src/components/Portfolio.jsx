@@ -37,28 +37,94 @@ const Portfolio = () => {
                       <span className="badge text-bg-light mb-3">
                         {project.category}
                       </span>
-                      <h3 className="mb-3">{project.title}</h3>
-                      <p className="lead text-muted">{project.description}</p>
+                      <h3
+                        className="mb-3"
+                        style={{
+                          fontSize:
+                            window.innerWidth < 768 ? "0.75rem" : undefined,
+                        }}
+                      >
+                        {project.title}
+                      </h3>
+                      <p
+                        className="lead text-muted"
+                        style={{
+                          fontSize:
+                            window.innerWidth < 768 ? "1rem" : undefined,
+                        }}
+                      >
+                        {project.description}
+                      </p>
                     </div>
 
                     <div className="project-meta mt-2 mb-3">
                       <div className="meta-item">
-                        <span className="text-muted">Customer</span>
-                        <span className="fw-medium">{project.client}</span>
+                        <span
+                          className="text-muted"
+                          style={{
+                            fontSize:
+                              window.innerWidth < 768 ? "0.75rem" : undefined,
+                          }}
+                        >
+                          Customer
+                        </span>
+                        <span
+                          className="fw-medium text-end"
+                          style={{
+                            fontSize:
+                              window.innerWidth < 768 ? "0.75rem" : undefined,
+                          }}
+                        >
+                          {project.client}
+                        </span>
                       </div>
                       <div className="meta-item">
-                        <span className="text-muted">Year</span>
-                        <span className="fw-medium">{project.year}</span>
+                        <span
+                          className="text-muted"
+                          style={{
+                            fontSize:
+                              window.innerWidth < 768 ? "0.75rem" : undefined,
+                          }}
+                        >
+                          Year
+                        </span>
+                        <span
+                          className="fw-medium text-end"
+                          style={{
+                            fontSize:
+                              window.innerWidth < 768 ? "0.75rem" : undefined,
+                          }}
+                        >
+                          {project.year}
+                        </span>
                       </div>
                       <div className="meta-item">
-                        <span className="text-muted">Technologies</span>
-                        <span className="fw-medium">
+                        <span
+                          className="text-muted"
+                          style={{
+                            fontSize:
+                              window.innerWidth < 768 ? "0.75rem" : undefined,
+                          }}
+                        >
+                          Technologies
+                        </span>
+                        <span
+                          className="fw-medium text-end"
+                          style={{
+                            fontSize:
+                              window.innerWidth < 768 ? "0.75rem" : undefined,
+                          }}
+                        >
                           {project.technologies}
                         </span>
                       </div>
                     </div>
                     <div>
-                      <a className="btn btn-sm btn-outline-primary" href={project.href} target="_blank">
+                      <a
+                        className="btn btn-sm btn-outline-primary"
+                        href={project.href}
+                        target="_blank"
+                      >
                         Project Link
                       </a>
                     </div>

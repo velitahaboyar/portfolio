@@ -31,10 +31,6 @@ export const skills = [
     icon: "linux",
     title: "Linux",
   },
-  {
-    icon: "typescript",
-    title: "TypeScript",
-  },
 ];
 
 export const contact = [
@@ -73,7 +69,7 @@ export const projects = [
     category: "Web Application",
     image: "/images/portfolio/payapp.png",
     description:
-      "PAY is a user-friendly commission management application designed for SME's. With this project, you can easily track commission agreements with your business partners.",
+      "PAY is a user-friendly commission management application (frontend) designed for SME's. You can easily track commissions with your business partners.",
     client: "SME's",
     year: "2025",
     technologies: "React, Bootstrap",
@@ -123,7 +119,7 @@ export const projects = [
     description:
       "Corporate website for electrical and plumbing services. Easy access to customers with service areas and contact information with references",
     client: "Güler Elektrik",
-    year: "2021",
+    year: "2022",
     technologies: "Elementor, HTML",
     href: "https://www.gulerelektriktelekom.com",
   },
