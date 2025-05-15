@@ -77,6 +77,7 @@ export const projects = [
     client: "SME's",
     year: "2025",
     technologies: "React, Bootstrap",
+    href: "https://velitahaboyar.github.io/pay-app",
   },
   {
     id: 2,
@@ -88,6 +89,7 @@ export const projects = [
     client: "Tukan Elt",
     year: "2025",
     technologies: "React, Bootstrap",
+    href: "https://www.tukanelt.com",
   },
   {
     id: 3,
@@ -99,6 +101,7 @@ export const projects = [
     client: "Kumkuyu Beton",
     year: "2024",
     technologies: "Elementor, HTML",
+    href: "https://www.kumkuyubeton.com",
   },
   {
     id: 4,
@@ -110,6 +113,7 @@ export const projects = [
     client: "Dölekoğlu Oto Servis",
     year: "2023",
     technologies: "Elementor, HTML",
+    href: "https://www.dolekogluotoservis.com",
   },
   {
     id: 5,
@@ -121,5 +125,6 @@ export const projects = [
     client: "Güler Elektrik",
     year: "2021",
     technologies: "Elementor, HTML",
+    href: "https://www.gulerelektriktelekom.com",
   },
 ];

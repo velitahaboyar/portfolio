@@ -57,6 +57,11 @@ const Portfolio = () => {
                         </span>
                       </div>
                     </div>
+                    <div>
+                      <a className="btn btn-sm btn-outline-primary" href={project.href} target="_blank">
+                        Project Link
+                      </a>
+                    </div>
                   </div>
                 </Col>
               </Row>
