@@ -39,9 +39,9 @@
 
   .navbar-toggler {
     padding: 0.25rem;
-    font-size: 30px;
+    font-size: 20px;
     border: none;
-    color: #acacac80; 
+    color: #acacac80;
     background-color: transparent;
   }
 
@@ -110,7 +110,6 @@
   transform: scaleX(1);
 }
 
-
 .nav-link-custom.active::after {
   transform: scaleX(1);
 }
@@ -127,4 +126,26 @@
 .nav-link-custom:active {
   background: transparent !important;
   outline: none !important;
+}
+
+.navbar {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.nav-hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.nav-visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .nav-hidden,
+  .nav-visible {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+  }
 }
