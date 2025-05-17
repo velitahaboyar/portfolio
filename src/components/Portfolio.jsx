@@ -21,8 +21,8 @@ const Portfolio = () => {
         >
           {projects.map((project) => (
             <Carousel.Item key={project.id}>
-              <Row className="align-items-stretch g-4 pt-3">
-                <Col lg={7}>
+              <Row className="align-items-stretch g-4 pt-2 h-100">
+                <Col lg={7} className="h-100">
                   <div className="portfolio-image-wrapper">
                     <img
                       src={project.image}
@@ -31,7 +31,7 @@ const Portfolio = () => {
                     />
                   </div>
                 </Col>
-                <Col lg={5}>
+                <Col lg={5} className="mb-4 h-100">
                   <div className="portfolio-content">
                     <div>
                       <span className="badge text-bg-light mb-3">
@@ -57,7 +57,7 @@ const Portfolio = () => {
                       </p>
                     </div>
 
-                    <div className="project-meta mt-2 mb-3">
+                    <div className="project-meta mt-2 mb-4">
                       <div className="meta-item">
                         <span
                           className="text-muted"

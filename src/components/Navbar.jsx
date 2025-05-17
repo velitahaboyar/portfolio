@@ -64,14 +64,14 @@ const Navbar = () => {
               target="_blank"
               className="navicon-custom"
             >
-              <FaLinkedin size={22} color="#5ab8e8" />
+              <FaLinkedin size={24} color="#5ab8e8" />
             </Nav.Link>
             <Nav.Link
               href="https://www.github.com/velitahaboyar/"
               target="_blank"
               className="navicon-custom"
             >
-              <FaGithub size={22} color="#828b8f" />
+              <FaGithub size={24} color="#828b8f" />
             </Nav.Link>
           </Nav>
         </BsNavbar.Collapse>

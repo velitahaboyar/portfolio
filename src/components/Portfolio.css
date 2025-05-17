@@ -12,10 +12,6 @@
   transition: all 0.3s ease;
 }
 
-.portfolio-image-wrapper:hover {
-  border-color: var(--card-hover-border);
-  transform: translateY(-5px);
-}
 
 .portfolio-image {
   width: 100%;
@@ -23,10 +19,6 @@
   object-fit: cover;
   aspect-ratio: 16/9;
   transition: all 0.3s ease;
-}
-
-.portfolio-image-wrapper:hover .portfolio-image {
-  transform: scale(1.05);
 }
 
 .portfolio-link {
@@ -67,7 +59,6 @@
 
 .portfolio-content:hover {
   border-color: var(--card-hover-border);
-  transform: translateY(-5px);
 }
 
 .project-meta {

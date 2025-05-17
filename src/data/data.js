@@ -58,7 +58,6 @@ export const personal = {
   givenName: "Veli Taha Boyar",
   name: "Taha",
   title: "Jr. Frontend Developer",
-  profileImage: "/profile.jpg",
   cv: "public/cv/Veli Taha Boyar CV.pdf",
 };
 

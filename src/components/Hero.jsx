@@ -30,7 +30,7 @@ const Hero = () => {
                 </span>
               </h1>
               <p
-                className="lead mb-4 lh-lg hero-text"
+                className="lead mb-4 lh-lg text-center text-muted"
                 style={{
                   fontSize: window.innerWidth < 768 ? "1rem" : undefined,
                 }}
@@ -39,8 +39,8 @@ const Hero = () => {
                 applications, <br className="d-none d-sm-block" /> especially
                 modern UI's. <br className="d-none d-sm-block" /> With my
                 knowledge of{" "}
-                <span className="text-tertiary fw-bold">React</span>,{" "}
-                <span className="text-quaternary">Javascript</span>, and modern
+                <span className="text-quaternary">React</span>,{" "}
+                <span className="text-white">Javascript</span> & modern
                 web technologies, <br className="d-none d-sm-block" /> I build
                 solutions that make a difference.
               </p>
