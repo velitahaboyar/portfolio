@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
+import MobilePortfolio from "./components/MobilePortfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
@@ -25,6 +26,7 @@ function App() {
                   <Hero />
                   <Skills />
                   <Portfolio />
+                  <MobilePortfolio />
                   <Contact />
                 </>
               }

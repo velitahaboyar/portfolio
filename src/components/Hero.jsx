@@ -35,14 +35,18 @@ const Hero = () => {
                   fontSize: window.innerWidth < 768 ? "1rem" : undefined,
                 }}
               >
-                I'm passionate about creating beautiful and functional web
-                applications, <br className="d-none d-sm-block" /> especially
-                modern UI's. <br className="d-none d-sm-block" /> With my
-                knowledge of{" "}
+                I'm passionate about creating intelligent and user-focused
+                digital experiences.
+                <br className="d-none d-sm-block" />
+                With my experience in{" "}
                 <span className="text-quaternary">React</span>,{" "}
-                <span className="text-white">Javascript</span> & modern
-                web technologies, <br className="d-none d-sm-block" /> I build
-                solutions that make a difference.
+                <span className="text-quaternary">React Native</span>, and modern
+                web technologies,
+                <br className="d-none d-sm-block" />
+                I build{" "}
+                <span className="text-white">AI-driven applications</span> and{" "}
+                <span className="text-white">automation systems</span> that blend
+                beautiful design with real functionality.
               </p>
               <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center">
                 <a

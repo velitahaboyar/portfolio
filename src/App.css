@@ -26,6 +26,8 @@ body {
   color: var(--text-color);
   background-color: var(--background-color);
   overflow-x: hidden;
+  display: block;
+  min-height: 100vh;
 }
 
 html,
@@ -428,9 +430,9 @@ footer .footer-bottom {
 
   .hero-section {
     padding: 100px 0 60px;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
     min-height: 100vh;
   }
 
@@ -516,6 +518,7 @@ footer .footer-bottom {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  width: 100%;
 }
 
 .card {

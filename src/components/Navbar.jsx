@@ -136,6 +136,7 @@ const Navbar = () => {
               ["#", "Summary"],
               ["#skills", "Skills"],
               ["#portfolio", "Portfolio"],
+              ["#mobile-portfolio", "Mobile Apps"],
               ["#contact", "Contact Me"],
             ].map(([href, label]) => (
               <Nav.Link
