@@ -174,7 +174,7 @@ export const mobileProjects = [
     id: 3,
     title: "Pomofun",
     category: "Productivity",
-    image: "/images/mobile/pomofun.png",
+    image: "/images/mobileprojects/pomofunhomepage.png",
     description: "Productivity application that analyzes users' focus habits, offering personalized pomodoro durations and global ranking system.",
     client: "Productivity Enthusiasts",
     year: "2025",
@@ -182,7 +182,10 @@ export const mobileProjects = [
     href: "https://github.com/velitahaboyar/pomofun",
     status: "In Development",
     gallery: [
-      "/images/mobileprojects/pomofunblured.png"
+      "/images/mobileprojects/pomofunhomepage.png",
+      "/images/mobileprojects/pomofunstatspage.png",
+      "/images/mobileprojects/pomofunrankingpage.png",
+      "/images/mobileprojects/pomofuntodopage.png"
     ]
   }
 ];
